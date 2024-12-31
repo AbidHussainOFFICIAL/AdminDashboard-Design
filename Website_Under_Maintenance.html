@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Under Maintenance</title>
+    <style>
+        /* Global Styling */
+        body {
+            font-family: 'Arial', sans-serif; /* Clean, standard font */
+            margin: 0;
+            padding: 0;
+            background-color: #f7f8fa; /* Soft off-white matching your theme */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* Card Container */
+        .card {
+            width: 400px;
+            background-color: #ffffff; /* Clean white for the card */
+            border-radius: 10px; /* Subtle rounded corners */
+            padding: 30px;
+            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1); /* Minimal shadow */
+            text-align: center;
+        }
+
+        /* Icon Section */
+        .icon-wrapper {
+            background-color: #eef2f6; /* Subtle grayish-blue */
+            border-radius: 50%;
+            width: 80px;
+            height: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto 20px;
+            animation: rotateIcon 2s infinite linear; /* Animation for rotating icon */
+        }
+
+        @keyframes rotateIcon {
+            0% {
+                transform: rotate(0deg);
+            }
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        .icon {
+            width: 40px;
+            height: 40px;
+        }
+
+        /* Title */
+        .title {
+            font-size: 18px;
+            font-weight: bold;
+            color: #333333; /* Slightly muted black */
+            margin-bottom: 10px;
+            animation: fadeIn 1s ease-out; /* Fade-in effect for title */
+        }
+
+        /* Subtitle */
+        .subtitle {
+            font-size: 14px;
+            font-weight: normal;
+            color: #555555; /* Softer gray tone */
+            line-height: 1.5;
+            margin-bottom: 20px;
+            animation: fadeIn 1.5s ease-out; /* Fade-in effect for subtitle */
+        }
+
+        /* Divider Line */
+        .divider {
+            height: 1px;
+            width: 100%;
+            background-color: #e0e0e0; /* Light gray for separation */
+            margin: 15px 0;
+        }
+
+        /* Button Styling */
+        .primary-button {
+            display: inline-block;
+            background-color: #0078d4; /* Bright blue button */
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: normal; /* Removed bold */
+            padding: 10px 18px;
+            border-radius: 6px;
+            text-decoration: none;
+            box-shadow: 0px 4px 8px rgba(0, 120, 212, 0.2); /* Subtle shadow */
+            transition: all 0.2s ease-in-out;
+        }
+
+        .primary-button:hover {
+            background-color: #005ea2; /* Darker blue hover */
+            box-shadow: 0px 4px 12px rgba(0, 120, 212, 0.3); /* Slightly stronger hover shadow */
+        }
+
+        /* Footer Text */
+        .footer {
+            font-size: 12px;
+            color: #888888; /* Lighter gray for footer */
+            margin-top: 20px;
+        }
+
+        /* Fade-in animation */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 480px) {
+            .card {
+                width: 90%;
+                padding: 20px;
+            }
+
+            .icon-wrapper {
+                width: 60px;
+                height: 60px;
+            }
+
+            .icon {
+                width: 30px;
+                height: 30px;
+            }
+
+            .title {
+                font-size: 16px;
+            }
+
+            .subtitle {
+                font-size: 13px;
+            }
+
+            .primary-button {
+                font-size: 13px;
+                padding: 8px 16px;
+            }
+
+            .footer {
+                font-size: 11px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <!-- Clickable Logo that redirects to Homepage -->
+        <a href="./index.html" title="Go to Homepage">
+            <div class="icon-wrapper">
+                <img src="https://img.icons8.com/ios-filled/50/555555/settings.png" alt="Maintenance Icon" class="icon">
+            </div>
+        </a>
+
+        <!-- Title -->
+        <div class="title">We're Upgrading!</div>
+
+        <!-- Subtitle -->
+        <div class="subtitle">
+            Our website is currently under maintenance to serve you better. 
+            Please check back soon. Thank you for your patience!
+        </div>
+
+        <!-- Divider -->
+        <div class="divider"></div>
+
+        <!-- Button -->
+        <a href="mailto:AbidHussainKhaskheli786a@gmail.com" class="primary-button">Contact Support</a>
+
+        <!-- Footer -->
+        <div class="footer">Estimated Completion: January 7, 2024</div>
+    </div>
+</body>
+</html>
