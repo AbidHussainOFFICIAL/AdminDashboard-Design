@@ -26,6 +26,34 @@
 
 ---
 
+## Features
+
+- Fully responsive layout for mobile and desktop devices
+- Interactive user interface
+- Built with HTML, CSS, and JavaScript
+- Clean and minimal design
+- Easy to integrate with real data sources
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+
+## Installation
+
+To get a local copy up and running, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/AbidHussainOFFICIAL/AdminDashboard-Design.git
+
+2. Navigate to the project directory:
+cd AdminDashboard-Design
+
+3. Open index.html in your browser to view the dashboard.
+---
+
 ## Prerequisites
 
 Before you begin, make sure you have the following installed:
