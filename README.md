@@ -14,7 +14,7 @@
 
   <p>This is a <strong>responsive</strong> dashboard that adapts perfectly across all devices.</p>
 
-  <a href="https://AbidHussainOFFICIAL.github.io/ControlPanel/"><strong>➥ Live Demo</strong></a>
+  <a href="https://admindashboard-design.netlify.app"><strong>➥ Live Demo</strong></a>
 
 </div>
 
