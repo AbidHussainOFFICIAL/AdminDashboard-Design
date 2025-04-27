@@ -1,8 +1,8 @@
 <div align="center">
   
   ![GitHub repo size](https://img.shields.io/github/repo-size/AbidHussainOFFICIAL/AdminDashboard-Design)
-  ![GitHub stars](https://img.shields.io/github/stars/AbidHussainOFFICIAL/ControlPanel?style=social)
-  ![GitHub forks](https://img.shields.io/github/forks/AbidHussainOFFICIAL/ControlPanel?style=social)
+  ![GitHub stars](https://img.shields.io/github/stars/AbidHussainOFFICIAL/AdminDashboard-Design?style=social)
+  ![GitHub forks](https://img.shields.io/github/forks/AbidHussainOFFICIAL/AdminDashboard-Design?style=social)
   [![LinkedIn Follow](https://img.shields.io/badge/Follow%20on-LinkedIn-blue)](https://www.linkedin.com/in/abidhussainsoftware/)
 
   <br />
